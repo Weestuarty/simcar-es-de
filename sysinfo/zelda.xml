@@ -1,0 +1,28 @@
+<theme>
+    <view name="system">
+        <text name="info1">
+            <text>The Legend of Zelda is a game series by Nintendo and created by the</text>
+        </text>
+        <text name="info2">
+            <text>Japanese game designers Shigeru Miyamoto and Takashi Tezuka</text>
+        </text>
+        <text name="info4">
+            <text>The series centers on the various incarnations of Link, a courageous</text>
+        </text>
+        <text name="info5">
+            <text>young Hylian man, with pointy, elf-like ears; and Princess Zelda,</text>
+        </text>
+        <text name="info6">
+            <text>a magical princess who is the mortal reincarnation of the goddess</text>
+        </text>
+        <text name="info7">
+            <text>Hylia; as they fight to save the magical land of Hyrule from</text>
+        </text>
+        <text name="info8">
+            <text>Ganon, an evil warlord turned demon king, who is the</text>
+        </text>
+	<text name="info9">
+	<text>principal antagonist of the series.</text>
+	</text>
+    </view>
+</theme>

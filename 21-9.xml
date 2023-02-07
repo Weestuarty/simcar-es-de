@@ -1,0 +1,127 @@
+<theme>
+    <view name="system">
+        <carousel name="game_carousel">
+            <pos>-.055 0.5</pos>
+            <origin>0 0.5</origin>
+            <size>0.6 1.2</size>
+            <itemSize>0.12 0.1</itemSize>
+            <itemRotation>8</itemRotation>
+            <type>verticalWheel</type>
+            <itemScale>2</itemScale>
+            <staticImage>./assets/syslogo/${system.theme}.svg</staticImage>
+            <imageColor>${outlineColor1}</imageColor>
+            <itemRotationOrigin>-4.5 0.5</itemRotationOrigin>
+            <itemHorizontalAlignment>center</itemHorizontalAlignment>
+            <unfocusedItemOpacity>0.3</unfocusedItemOpacity>
+            <color>00000000</color>
+            <textBackgroundColor>00000000</textBackgroundColor>
+            <!-- Placeholder text -->
+            <text>${system.fullName}</text>
+            <textColor>${outlineColor1}</textColor>
+            <fontPath>${mainFont}</fontPath>
+            <fontSize>0.02</fontSize>
+            <letterCase>none</letterCase>
+            <lineSpacing>1</lineSpacing>
+            <zIndex>50</zIndex>
+        </carousel>
+    </view>
+    <view name="system, gamelist">
+        <image name="topline">
+            <size>0.8 2.2</size>
+            <pos>0.008 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <path>./assets/circle.svg</path>
+            <tile>false</tile>
+            <color>${outlineColor1}</color>
+        </image>
+        <image name="topline2">
+            <size>0.8 2.1</size>
+            <pos>-.2798 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <path>./assets/circle.svg</path>
+            <tile>false</tile>
+            <color>${outlineColor1}</color>
+        </image>
+        <image name="topline3">
+            <size>0.6 0.7</size>
+            <pos>0.315 0.28</pos>
+            <rotation>-3</rotation>
+            <origin>0.5 0.5</origin>
+            <path>./assets/circle2.svg</path>
+            <tile>false</tile>
+            <color>${backgroundColor}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="topline4">
+            <size>0.6 0.7</size>
+            <pos>0.315 0.72</pos>
+            <rotation>3</rotation>
+            <origin>0.5 0.5</origin>
+            <path>./assets/circle2.svg</path>
+            <tile>false</tile>
+            <color>${backgroundColor}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="topline5">
+            <size>0.55 1</size>
+            <pos>0.28 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <path>./assets/circle2.svg</path>
+            <tile>false</tile>
+            <color>${backgroundColor}</color>
+            <zIndex>3</zIndex>
+        </image>
+    </view>
+    <view name="gamelist">
+        <carousel name="game_carousel">
+			<pos>-.03 0</pos>
+			<size>0.55 1.</size>
+			<itemSize>0.2 0.15</itemSize>
+			<imageType>none</imageType>
+			<itemRotation>6</itemRotation>
+			<type>verticalWheel</type>
+			<itemScale>1.35</itemScale>
+			<itemRotationOrigin>-2.25 0.5</itemRotationOrigin>
+			<itemHorizontalAlignment>center</itemHorizontalAlignment>
+			<unfocusedItemOpacity>0.3</unfocusedItemOpacity>
+			<color>00000000</color>
+			<textBackgroundColor>00000000</textBackgroundColor>
+			<!-- Placeholder text -->
+			<text>${system.fullName}</text>
+			<textColor>${outlineColor1}</textColor>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.04</fontSize>
+			<letterCase>none</letterCase>
+			<lineSpacing>1</lineSpacing>
+			<zIndex>50</zIndex>
+		</carousel>
+        
+
+        <text name="player1">
+			<metadata>players</metadata>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.03</fontSize>
+			<color>${outlineColor1}</color>
+			<pos>0.74 0.33</pos>
+		</text>
+        <text name="description1">
+			<size>0.33 0.28</size>
+			<metadata>description</metadata>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.035</fontSize>
+			<lineSpacing>1</lineSpacing>
+			<color>${outlineColor1}</color>
+			<pos>0.65 0.39</pos>
+		</text>
+        <image name="Syslogo">
+			<path>./assets/syslogo/${system.theme}.svg</path>
+            	<pos>0.047 0.5</pos>
+				<origin>0.5 0.5</origin>
+				<rotation>-90</rotation>
+            	<maxSize>0.13 0.11</maxSize>
+		</image>
+        <badges name="all">
+			<pos>0.44 0.65</pos>
+        </badges>
+    </view>
+</theme>

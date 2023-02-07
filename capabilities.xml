@@ -1,0 +1,68 @@
+<!--
+    Theme capabilities for modern-DE
+-->
+
+<themeCapabilities>
+    <aspectRatio>16:9</aspectRatio>
+    <aspectRatio>16:10</aspectRatio>
+    <aspectRatio>4:3</aspectRatio>
+    <aspectRatio>21:9</aspectRatio>
+
+    <colorScheme name="mono">
+        <label>Black & White</label>
+    </colorScheme>
+
+    <colorScheme name="blue">
+        <label>Blue</label>
+    </colorScheme>
+
+    <colorScheme name="gold">
+        <label>Gold</label>
+    </colorScheme>
+
+    <colorScheme name="gameboy">
+        <label>Gameboy</label>
+    </colorScheme>
+
+    <colorScheme name="gameboycase">
+        <label>Gameboy Shell</label>
+    </colorScheme>
+
+    <colorScheme name="retro">
+        <label>Retro</label>
+    </colorScheme>
+    
+    <colorScheme name="classy">
+        <label>Stay Classy</label>
+    </colorScheme>
+
+    <colorScheme name="comm">
+        <label>Commodore 64</label>
+    </colorScheme>
+
+    <colorScheme name="chill">
+        <label>Chilled</label>
+    </colorScheme>
+
+    <colorScheme name="purplerain">
+        <label>Purple Rain</label>
+    </colorScheme>
+
+    <colorScheme name="orange">
+        <label>Rusty</label>
+    </colorScheme>
+
+    <colorScheme name="sega">
+        <label>Sega</label>
+    </colorScheme>
+
+    <variant name="withVideo">
+        <label>With videos</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="withoutVideo">
+        <label>Without videos</label>
+        <selectable>true</selectable>
+    </variant>
+</themeCapabilities>

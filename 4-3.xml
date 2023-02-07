@@ -1,0 +1,124 @@
+<theme>
+
+    <view name="system">    
+			<text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10">
+				<size>0.6 0.03</size>
+				<fontPath>${mainFont}</fontPath>
+				<fontSize>0.03</fontSize>
+			</text>
+            <text name="gamecount">
+				<fontSize>0.05</fontSize>
+				</text>
+			<text name="gamecount2">
+				<fontSize>0.05</fontSize>
+			</text>
+    </view>
+    <view name="system, gamelist">
+        <image name="topline">
+            <size>0.8 1.6</size>
+            <pos>0.01 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <path>./assets/circle.svg</path>
+            <tile>false</tile>
+            <color>${outlineColor1}</color>
+        </image>
+        <image name="topline2">
+            <size>0.8 1.5</size>
+            <pos>-.28 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <path>./assets/circle.svg</path>
+            <tile>false</tile>
+            <color>${outlineColor1}</color>
+        </image>
+        <image name="topline3">
+            <size>0.6 0.7</size>
+            <pos>0.28 0.3</pos>
+            <rotation>-8</rotation>
+            <origin>0.5 0.5</origin>
+            <path>./assets/circle2.svg</path>
+            <tile>false</tile>
+            <color>${backgroundColor}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="topline4">
+            <size>0.6 0.7</size>
+            <pos>0.28 0.7</pos>
+            <rotation>8</rotation>
+            <origin>0.5 0.5</origin>
+            <path>./assets/circle2.svg</path>
+            <tile>false</tile>
+            <color>${backgroundColor}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="topline5">
+            <size>0.55 0.8</size>
+            <pos>0.29 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <path>./assets/circle2.svg</path>
+            <tile>false</tile>
+            <color>${backgroundColor}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="controller">
+            <pos>0.04 0.305</pos>
+            <maxSize>0.07 0.07</maxSize>
+          </image>
+          <image name="controller1">
+            <pos>0.04 0.695</pos>
+            <maxSize>0.07 0.07</maxSize>
+          </image>
+    </view>
+
+    <view name="gamelist">
+        <carousel name="game_carousel">
+			<pos>-.03 0</pos>
+			<size>0.55 1.</size>
+			<itemSize>0.2 0.15</itemSize>
+			<imageType>none</imageType>
+			<itemRotation>8</itemRotation>
+			<type>verticalWheel</type>
+			<itemScale>1.35</itemScale>
+			<itemRotationOrigin>-4 0.5</itemRotationOrigin>
+			<itemHorizontalAlignment>center</itemHorizontalAlignment>
+			<unfocusedItemOpacity>0.3</unfocusedItemOpacity>
+			<color>00000000</color>
+			<textBackgroundColor>00000000</textBackgroundColor>
+			<!-- Placeholder text -->
+			<text>${system.fullName}</text>
+			<textColor>${outlineColor1}</textColor>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.035</fontSize>
+			<letterCase>none</letterCase>
+			<lineSpacing>1</lineSpacing>
+			<zIndex>50</zIndex>
+		</carousel>
+
+        <text name="collectionsSystemName">
+            <fontSize>0.02</fontSize>
+        </text>
+       
+
+        <text name="player1">
+			<metadata>players</metadata>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.03</fontSize>
+			<color>${outlineColor1}</color>
+			<pos>0.8 0.33</pos>
+		</text>
+        <rating name="rating">
+            <pos>0.86 0.335</pos>
+            <size>0.08 0.03</size>
+        </rating>
+        <text name="description1">
+			<size>0.33 0.28</size>
+			<metadata>description</metadata>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.027</fontSize>
+			<lineSpacing>1</lineSpacing>
+			<color>${outlineColor1}</color>
+			<pos>0.65 0.39</pos>
+		</text>
+    </view>
+
+        
+</theme>

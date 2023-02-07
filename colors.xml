@@ -1,0 +1,86 @@
+<theme>
+    <colorScheme name="classy">
+        <variables>
+            <colorSchemeName>classy</colorSchemeName>
+            <backgroundColor>561420</backgroundColor>
+            <outlineColor1>c59a6f</outlineColor1>
+        </variables>
+    </colorScheme>
+<colorScheme name="gold">
+        <variables>
+            <colorSchemeName>gold</colorSchemeName>
+            <backgroundColor>111111</backgroundColor>
+            <outlineColor1>DDAA00</outlineColor1>
+        </variables>
+    </colorScheme>
+    <colorScheme name="retro">
+        <variables>
+            <colorSchemeName>retro</colorSchemeName>
+            <backgroundColor>D3c09F</backgroundColor>
+            <outlineColor1>5e3427</outlineColor1>
+        </variables>
+    </colorScheme>
+    <colorScheme name="mono">
+        <variables>
+            <colorSchemeName>mono</colorSchemeName>
+            <backgroundColor>000000</backgroundColor>
+            <outlineColor1>FFFFFF</outlineColor1>
+        </variables>
+    </colorScheme>
+    <colorScheme name="blue">
+        <variables>
+            <colorSchemeName>blue</colorSchemeName>
+            <backgroundColor>002f63</backgroundColor>
+            <outlineColor1>96b7ee</outlineColor1>
+        </variables>
+    </colorScheme>
+	<colorScheme name="chill">
+        <variables>
+            <colorSchemeName>chill</colorSchemeName>
+            <backgroundColor>47697e</backgroundColor>
+            <outlineColor1>fcf1d1</outlineColor1>
+        </variables>
+    </colorScheme>
+    <colorScheme name="purplerain">
+        <variables>
+            <colorSchemeName>purplerain</colorSchemeName>
+            <backgroundColor>421c52</backgroundColor>
+            <outlineColor1>bdaec6</outlineColor1>
+        </variables>
+    </colorScheme>
+    <colorScheme name="orange">
+        <variables>
+            <colorSchemeName>orange</colorSchemeName>
+            <backgroundColor>2a3439</backgroundColor>
+            <outlineColor1>8d4004</outlineColor1>
+        </variables>
+    </colorScheme>
+    <colorScheme name="gameboy">
+        <variables>
+            <colorSchemeName>gameboy</colorSchemeName>
+            <backgroundColor>75a883</backgroundColor>
+            <outlineColor1>3e4943</outlineColor1>
+        </variables>
+    </colorScheme>
+    <colorScheme name="gameboycase">
+        <variables>
+            <colorSchemeName>gameboycase</colorSchemeName>
+            <backgroundColor>c4bebb</backgroundColor>
+            <outlineColor1>9a2257</outlineColor1>
+        </variables>
+    </colorScheme>
+    <colorScheme name="comm">
+        <variables>
+            <colorSchemeName>comm</colorSchemeName>
+            <backgroundColor>483AAA</backgroundColor>
+            <outlineColor1>867ade</outlineColor1>
+        </variables>
+    </colorScheme>
+    <colorScheme name="sega">
+        <variables>
+            <colorSchemeName>sega</colorSchemeName>
+            <backgroundColor>DDDDDD</backgroundColor>
+            <outlineColor1>17569b</outlineColor1>
+        </variables>
+    </colorScheme>
+</theme>

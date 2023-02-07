@@ -1,0 +1,21 @@
+<theme>
+    <include>./../theme.xml</include>
+
+    <variant name="all">
+        <view name="gamelist">
+            <text name="collectionsSystemName">
+                <pos>0.08 0.5</pos>
+				
+                <metadata>sourceSystemFullname</metadata>
+            </text>
+            <image name="Syslogo">
+				<path>./../assets/syslogo/${system.theme}.svg</path>
+            	<pos>0.035 0.5</pos>
+				<origin>0.5 0.5</origin>
+				<rotation>-90</rotation>
+            	<maxSize>0.17 0.11</maxSize>
+				<color>${outlineColor1}</color>
+			</image>
+        </view>
+    </variant>
+</theme>
