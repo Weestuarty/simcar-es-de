@@ -1,19 +1,31 @@
-# BigScreen -Simple for EmulationStation Desktop Edition
+# Simcar for EmulationStation Desktop Edition v2.0
 
-BigScreen -Simple theme set for ES-DE that supports most systems (wip).
+Simple Carousel theme set for ES-DE.
+
+![systems](system.png)
+![games](game.png)
 
 The following options are included:
 
 2 variants:
 
-- Textlist with videos
-- Textlist without videos
+- With videos
+- Without videos
 
-3 color schemes:
+12 color schemes:
 
-- Black
+- Black & White
 - Gold
-- Grey
+- Blue
+- Gameboy
+- Gameboy Shell
+- Retro
+- Stay Classy
+- Commodore 64
+- Chilled
+- Purple Rain
+- Rusty
+- Sega
 
 4 aspect ratios:
 
