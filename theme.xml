@@ -111,14 +111,14 @@
 				<zIndex>54</zIndex>
       		</image>
 			<image name="controller1">
-            	<pos>0.043 0.695</pos>
-            	<maxSize>0.07 0.08</maxSize>
-            	<origin>0.5 0.5</origin>
+				<pos>0.043 0.695</pos>
+				<maxSize>0.07 0.08</maxSize>
+				<origin>0.5 0.5</origin>
 				<rotation>180</rotation>
-            	<path>./assets/controllers/${system.theme}.svg</path>
-            	<tile>false</tile>
-            	<color>${outlineColor1}</color>
-            	<zIndex>54</zIndex>
+				<path>./assets/controllers/${system.theme}.svg</path>
+				<tile>false</tile>
+				<color>${outlineColor1}</color>
+				<zIndex>54</zIndex>
       		</image>
 			<helpsystem name="help">
 				<pos>0.98 0.3</pos>
