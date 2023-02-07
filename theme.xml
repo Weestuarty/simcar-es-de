@@ -54,7 +54,7 @@
 				<gradientType>vertical</gradientType>
 				<zIndex>3</zIndex>
 	 		</image>
-			 <image name="background4">
+			<image name="background4">
 				<pos>0 0.75</pos>
 				<size>1 .2</size>
 				<origin>0 0</origin>
@@ -75,7 +75,7 @@
 				<gradientType>vertical</gradientType>
 				<zIndex>3</zIndex>
 	 		</image>
-			 <image name="topline">
+			<image name="topline">
             	<size>0.8 2.2</size>
 				<pos>0.007 0.5</pos>
             	<origin>0.5 0.5</origin>
@@ -119,7 +119,7 @@
             	<color>${outlineColor1}</color>
             	<zIndex>54</zIndex>
       		</image>
-			  <helpsystem name="help">
+			<helpsystem name="help">
 				<pos>0.98 0.3</pos>
 				<origin>1 0.5</origin>
 				<textColor>${outlineColor1}</textColor>
@@ -130,7 +130,7 @@
 				<fontSize>0.02</fontSize>
 				<opacity>0.6</opacity>
 				<letterCase>capitalize</letterCase>
-			  </helpsystem>
+			</helpsystem>
 		</view>
 
     	<view name="system">   
