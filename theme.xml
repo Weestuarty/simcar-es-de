@@ -77,15 +77,15 @@
 				<zIndex>3</zIndex>
 	 		</image>
 			<image name="topline">
-            	<size>0.8 2.2</size>
+				<size>0.8 2.2</size>
 				<pos>0.007 0.5</pos>
-        		<origin>0.5 0.5</origin>
-    			<path>./assets/circle.svg</path>
-       			<tile>false</tile>
-       			<color>${outlineColor1}</color>
+				<origin>0.5 0.5</origin>
+				<path>./assets/circle.svg</path>
+				<tile>false</tile>
+				<color>${outlineColor1}</color>
 			</image>
 			<image name="topline2">
-       			<size>0.8 2</size>
+				<size>0.8 2</size>
 				<pos>-.28 0.5</pos>
 				<origin>0.5 0.5</origin>
 				<path>./assets/circle.svg</path>
@@ -93,7 +93,7 @@
 				<color>${outlineColor1}</color>
 			</image>
 			<image name="topline3">
-       			<size>0.6 1</size>
+				<size>0.6 1</size>
 				<pos>0.3 0.5</pos>
 				<origin>0.5 0.5</origin>
 				<path>./assets/circle2.svg</path>
@@ -102,7 +102,7 @@
 				<zIndex>3</zIndex>
 			</image>
 			<image name="controller">
-	       		<pos>0.043 0.305</pos>
+				<pos>0.043 0.305</pos>
 				<maxSize>0.07 0.07</maxSize>
 				<origin>0.5 0.5</origin>
 				<path>./assets/controllers/${system.theme}.svg</path>
