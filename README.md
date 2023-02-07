@@ -2,6 +2,8 @@
 
 Simple Carousel theme set for ES-DE.
 
+**FOR V2.0beta USE SIMCAR.ZIP CONTENTS**
+
 ![systems](system.png)
 ![games](game.png)
 
