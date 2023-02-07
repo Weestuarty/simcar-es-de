@@ -4,6 +4,8 @@ Simple Carousel theme set for ES-DE.
 
 **FOR V2.0beta USE SIMCAR.ZIP CONTENTS**
 
+**INCLUDES COLORED BADGES AND FULL IMAGE SETS WHEN ROMCOUNT IS <10 IN v2.0 NEXT BETA/FULL**
+
 ![systems](system.png)
 ![games](game.png)
 
