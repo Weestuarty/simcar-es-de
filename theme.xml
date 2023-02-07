@@ -26,14 +26,14 @@
 	<variant name="all">	
 		<view name="system, gamelist">
 			<image name="background">
-            	<pos>0 0</pos>
-            	<size>1 1</size>
-            	<origin>0 0</origin>
-            	<path>./assets/box.png</path>
-            	<tile>false</tile>
-            	<color>${backgroundColor}</color>
-            	<zIndex>0</zIndex>
-      		</image>
+				<pos>0 0</pos>
+				<size>1 1</size>
+				<origin>0 0</origin>
+				<path>./assets/box.png</path>
+				<tile>false</tile>
+				<color>${backgroundColor}</color>
+				<zIndex>0</zIndex>
+			</image>
 			<image name="background2">
 				<pos>0 0.05</pos>
 				<size>1 .2</size>
