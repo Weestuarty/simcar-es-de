@@ -26,14 +26,14 @@
 	<variant name="all">	
 		<view name="system, gamelist">
 			<image name="background">
-            			<pos>0 0</pos>
-            			<size>1 1</size>
-            			<origin>0 0</origin>
-            			<path>./assets/box.png</path>
-            			<tile>false</tile>
-            			<color>${backgroundColor}</color>
-            			<zIndex>0</zIndex>
-      			</image>
+            	<pos>0 0</pos>
+            	<size>1 1</size>
+            	<origin>0 0</origin>
+            	<path>./assets/box.png</path>
+            	<tile>false</tile>
+            	<color>${backgroundColor}</color>
+            	<zIndex>0</zIndex>
+      		</image>
 			<image name="background2">
 				<pos>0 0.05</pos>
 				<size>1 .2</size>
@@ -76,63 +76,50 @@
 				<gradientType>vertical</gradientType>
 				<zIndex>3</zIndex>
 	 		</image>
-<<<<<<< HEAD
 			<image name="topline">
             	<size>0.8 2.2</size>
-=======
-			 <image name="topline">
-            			<size>0.8 2.2</size>
->>>>>>> d42d4c82fd67cb80121c577027dd1494acb4f7f1
 				<pos>0.007 0.5</pos>
-            			<origin>0.5 0.5</origin>
-            			<path>./assets/circle.svg</path>
-            			<tile>false</tile>
-            			<color>${outlineColor1}</color>
-        		</image>
+        		<origin>0.5 0.5</origin>
+    			<path>./assets/circle.svg</path>
+       			<tile>false</tile>
+       			<color>${outlineColor1}</color>
+       		</image>
 			<image name="topline2">
-            			<size>0.8 2</size>
+       			<size>0.8 2</size>
 				<pos>-.28 0.5</pos>
-            			<origin>0.5 0.5</origin>
-            			<path>./assets/circle.svg</path>
-            			<tile>false</tile>
-            			<color>${outlineColor1}</color>
-        		</image>
+       			<origin>0.5 0.5</origin>
+       			<path>./assets/circle.svg</path>
+       			<tile>false</tile>
+       			<color>${outlineColor1}</color>
+       		</image>
 			<image name="topline3">
-            			<size>0.6 1</size>
+       			<size>0.6 1</size>
 				<pos>0.3 0.5</pos>
-            			<origin>0.5 0.5</origin>
-            			<path>./assets/circle2.svg</path>
-            			<tile>false</tile>
-            			<color>${backgroundColor}</color>
+       			<origin>0.5 0.5</origin>
+       			<path>./assets/circle2.svg</path>
+       			<tile>false</tile>
+       			<color>${backgroundColor}</color>
 				<zIndex>3</zIndex>
         		</image>
 			<image name="controller">
-            			<pos>0.043 0.305</pos>
-            			<maxSize>0.07 0.07</maxSize>
-            			<origin>0.5 0.5</origin>
-            			<path>./assets/controllers/${system.theme}.svg</path>
-            			<tile>false</tile>
-            			<color>${outlineColor1}</color>
-            			<zIndex>54</zIndex>
-      			</image>
+	       		<pos>0.043 0.305</pos>
+				<maxSize>0.07 0.07</maxSize>
+				<origin>0.5 0.5</origin>
+				<path>./assets/controllers/${system.theme}.svg</path>
+				<tile>false</tile>
+				<color>${outlineColor1}</color>
+				<zIndex>54</zIndex>
+      		</image>
 			<image name="controller1">
-            			<pos>0.043 0.695</pos>
-            			<maxSize>0.07 0.08</maxSize>
-            			<origin>0.5 0.5</origin>
+            	<pos>0.043 0.695</pos>
+            	<maxSize>0.07 0.08</maxSize>
+            	<origin>0.5 0.5</origin>
 				<rotation>180</rotation>
-<<<<<<< HEAD
             	<path>./assets/controllers/${system.theme}.svg</path>
             	<tile>false</tile>
             	<color>${outlineColor1}</color>
             	<zIndex>54</zIndex>
       		</image>
-=======
-            			<path>./assets/controllers/${system.theme}.svg</path>
-            			<tile>false</tile>
-            			<color>${outlineColor1}</color>
-            			<zIndex>54</zIndex>
-      			</image>
->>>>>>> d42d4c82fd67cb80121c577027dd1494acb4f7f1
 			<helpsystem name="help">
 				<pos>0.98 0.3</pos>
 				<origin>1 0.5</origin>
@@ -147,7 +134,7 @@
 			</helpsystem>
 		</view>
 
-    		<view name="system">   
+    	<view name="system">   
 			<carousel name="game_carousel">
 				<pos>-.005 0</pos>
 				<size>0.5 1.</size>
@@ -218,7 +205,7 @@
 				<pos>0.03 0.5</pos>
 				<origin>0.5 0.5</origin>
 				<rotation>-90</rotation>
-            			<size>0.25 0.11</size>
+        		<size>0.25 0.11</size>
 				<systemdata>gamecountGames</systemdata>
 				<fontPath>${mainFont}</fontPath>
 				<fontSize>0.06</fontSize>
@@ -229,7 +216,7 @@
 				<pos>0.06 0.5</pos>
 				<origin>0.5 0.5</origin>
 				<rotation>-90</rotation>
-            			<size>0.25 0.11</size>
+				<size>0.25 0.11</size>
 				<systemdata>gamecountFavorites</systemdata>
 				<fontPath>${mainFont}</fontPath>
 				<fontSize>0.06</fontSize>
@@ -356,9 +343,9 @@
 				<gameselectorEntry>6</gameselectorEntry>
 				<zIndex>2</zIndex>
 			</image>	        	
-    		</view>
+    	</view>
 
-    		<view name="gamelist">
+    	<view name="gamelist">
 			<carousel name="game_carousel">
 				<pos>-.03 0</pos>
 				<size>0.55 1.</size>
@@ -395,8 +382,7 @@
 				<size>.2 0.3</size>
 				<imageType>titlescreen, screenshot</imageType>
 				<zIndex>2</zIndex>
-				</image>
-			
+			</image>
 			<image name="cover5">
 				<pos>1 0.13</pos>
 				<origin>.5 0.5</origin>
@@ -424,8 +410,7 @@
 				<size>.2 0.3</size>
 				<imageType>titlescreen, screenshot</imageType>
 				<zIndex>2</zIndex>
-			</image>
-						
+			</image>		
 			<image name="cover11">
 				<pos>1 0.87</pos>
 				<origin>.5 0.5</origin>
@@ -442,10 +427,10 @@
 			</image>			
       			<image name="Syslogo">
 				<path>./assets/syslogo/${system.theme}.svg</path>
-            			<pos>0.047 0.5</pos>
+            	<pos>0.047 0.5</pos>
 				<origin>0.5 0.5</origin>
 				<rotation>-90</rotation>
-            			<maxSize>0.17 0.11</maxSize>
+            	<maxSize>0.17 0.11</maxSize>
 				<color>${outlineColor1}</color>
 			</image>
 			<image name="md_cover">
@@ -483,7 +468,7 @@
 				<pos>0.07 0.5</pos>
 				<origin>0.5 0.5</origin>
 				<rotation>-90</rotation>
-            			<size>0.18 0.11</size>
+            	<size>0.18 0.11</size>
 				<systemNameSuffix>true</systemNameSuffix>
 				<fontPath>${mainFont}</fontPath>
 				<fontSize>0.03</fontSize>
@@ -519,9 +504,9 @@
 				<pos>0.885 0.335</pos>
 				<size>0.08 0.03</size>
 				<interpolation>nearest</interpolation>
-            			<color>${outlineColor1}</color>
-            			<filledPath>./assets/rating_filled.svg</filledPath>
-            			<unfilledPath>./assets/rating_empty.svg</unfilledPath>
+            	<color>${outlineColor1}</color>
+            	<filledPath>./assets/rating_filled.svg</filledPath>
+            	<unfilledPath>./assets/rating_empty.svg</unfilledPath>
 			</rating>
   		</view>
 	</variant>
