@@ -341,8 +341,8 @@
 				<imageType>screenshot</imageType>
 				<gameselectorEntry>6</gameselectorEntry>
 				<zIndex>2</zIndex>
-			</image>	        	
-    	</view>
+			</image>
+		</view>
 		<view name="gamelist">
 			<carousel name="game_carousel">
 				<pos>-.03 0</pos>
@@ -425,10 +425,10 @@
 			</image>			
       			<image name="Syslogo">
 				<path>./assets/syslogo/${system.theme}.svg</path>
-            	<pos>0.047 0.5</pos>
+				<pos>0.047 0.5</pos>
 				<origin>0.5 0.5</origin>
 				<rotation>-90</rotation>
-            	<maxSize>0.17 0.11</maxSize>
+				<maxSize>0.17 0.11</maxSize>
 				<color>${outlineColor1}</color>
 			</image>
 			<image name="md_cover">
@@ -466,7 +466,7 @@
 				<pos>0.07 0.5</pos>
 				<origin>0.5 0.5</origin>
 				<rotation>-90</rotation>
-            	<size>0.18 0.11</size>
+				<size>0.18 0.11</size>
 				<systemNameSuffix>true</systemNameSuffix>
 				<fontPath>${mainFont}</fontPath>
 				<fontSize>0.03</fontSize>
@@ -502,9 +502,9 @@
 				<pos>0.885 0.335</pos>
 				<size>0.08 0.03</size>
 				<interpolation>nearest</interpolation>
-            	<color>${outlineColor1}</color>
-            	<filledPath>./assets/rating_filled.svg</filledPath>
-            	<unfilledPath>./assets/rating_empty.svg</unfilledPath>
+				<color>${outlineColor1}</color>
+				<filledPath>./assets/rating_filled.svg</filledPath>
+				<unfilledPath>./assets/rating_empty.svg</unfilledPath>
 			</rating>
   		</view>
 	</variant>
