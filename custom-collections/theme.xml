@@ -3,12 +3,10 @@
 
     <variant name="all">
         <view name="gamelist">
-            <text name="customCollectionsSystemName">
+            <text name="collectionsSystemName">
                 <metadata>sourceSystemFullname</metadata>
             </text>
-            <text name="customCollectionsHeader, customCollectionsHeaderNoMedia">
-                <metadata>systemFullname</metadata>
-            </text>
+          
         </view>
     </variant>
 </theme>
