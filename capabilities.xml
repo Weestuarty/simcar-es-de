@@ -8,6 +8,12 @@
     <aspectRatio>4:3</aspectRatio>
     <aspectRatio>21:9</aspectRatio>
 
+    <suppressTransitionProfiles>
+        <entry>builtin-slide</entry>
+        <entry>builtin-fade</entry>
+    </suppressTransitionProfiles>
+    
+
     <colorScheme name="gold">
         <label>Gold</label>
     </colorScheme>
