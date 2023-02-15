@@ -218,18 +218,7 @@
 				<colorEnd>${backgroundColor}00</colorEnd>
 				<zIndex>2</zIndex>
 			</image>
-			<image name="cover4">
-				<pos>0.2 0.13</pos>
-				<origin>.5 0.5</origin>
-				<size>.2 0.3</size>
-				<tile>true</tile>
-				<tileSize>0 0.1</tileSize>
-				<imageType>screenshot</imageType>
-				<gradientType>vertical</gradientType>
-				<gameselectorEntry>4</gameselectorEntry>
-				<colorEnd>${backgroundColor}00</colorEnd>
-				<zIndex>2</zIndex>
-			</image>
+			
 			<image name="cover5">
 				<pos>1 0.13</pos>
 				<origin>.5 0.5</origin>
@@ -239,7 +228,7 @@
 				<imageType>screenshot</imageType>
 				<gradientType>vertical</gradientType>				
 				<colorEnd>${backgroundColor}00</colorEnd>
-				<gameselectorEntry>5</gameselectorEntry>
+				<gameselectorEntry>4</gameselectorEntry>
 				<zIndex>2</zIndex>
 			</image>
 			<image name="cover6">
@@ -249,7 +238,7 @@
 				<tile>true</tile>
 				<tileSize>0 0.1</tileSize>
 				<imageType>screenshot</imageType>
-				<gameselectorEntry>5</gameselectorEntry>
+				<gameselectorEntry>4</gameselectorEntry>
 				<gradientType>vertical</gradientType>				
 				<colorEnd>${backgroundColor}00</colorEnd>
 				<zIndex>2</zIndex>
@@ -261,7 +250,7 @@
 				<tile>true</tile>
 				<tileSize>0 0.1</tileSize>
 				<imageType>screenshot</imageType>
-				<gameselectorEntry>7</gameselectorEntry>
+				<gameselectorEntry>5</gameselectorEntry>
 				<gradientType>vertical</gradientType>								
 				<color>${backgroundColor}00</color>
 				<colorEnd>FFFFFF</colorEnd>
@@ -274,7 +263,7 @@
 				<tile>true</tile>
 				<tileSize>0 0.1</tileSize>
 				<imageType>screenshot</imageType>
-				<gameselectorEntry>8</gameselectorEntry>
+				<gameselectorEntry>6</gameselectorEntry>
 				<gradientType>vertical</gradientType>								
 				<color>${backgroundColor}00</color>
 				<colorEnd>FFFFFF</colorEnd>
@@ -287,25 +276,13 @@
 				<tile>true</tile>
 				<tileSize>0 0.1</tileSize>
 				<imageType>screenshot</imageType>
-				<gameselectorEntry>9</gameselectorEntry>
+				<gameselectorEntry>7</gameselectorEntry>
 				<gradientType>vertical</gradientType>								
 				<color>${backgroundColor}00</color>
 				<colorEnd>FFFFFF</colorEnd>
 				<zIndex>2</zIndex>
 			</image>
-			<image name="cover10">
-				<pos>0.2 0.87</pos>
-				<origin>.5 0.5</origin>
-				<size>.2 0.3</size>
-				<tile>true</tile>
-				<tileSize>0 0.1</tileSize>
-				<imageType>screenshot</imageType>
-				<gameselectorEntry>10</gameselectorEntry>
-				<gradientType>vertical</gradientType>								
-				<color>${backgroundColor}00</color>
-				<colorEnd>FFFFFF</colorEnd>
-				<zIndex>2</zIndex>
-			</image>
+			
 			<image name="cover11">
 				<pos>1 0.87</pos>
 				<origin>.5 0.5</origin>
@@ -313,7 +290,7 @@
 				<tile>true</tile>
 				<tileSize>0 0.1</tileSize>
 				<imageType>screenshot</imageType>
-				<gameselectorEntry>6</gameselectorEntry>
+				<gameselectorEntry>0</gameselectorEntry>
 				<gradientType>vertical</gradientType>								
 				<color>${backgroundColor}00</color>
 				<colorEnd>FFFFFF</colorEnd>
@@ -326,7 +303,7 @@
 				<tile>true</tile>
 				<tileSize>0 0.1</tileSize>
 				<imageType>screenshot</imageType>
-				<gameselectorEntry>6</gameselectorEntry>
+				<gameselectorEntry>0</gameselectorEntry>
 				<gradientType>vertical</gradientType>								
 				<color>${backgroundColor}00</color>
 				<colorEnd>FFFFFF</colorEnd>
