@@ -8,16 +8,16 @@
     <aspectRatio>4:3</aspectRatio>
     <aspectRatio>21:9</aspectRatio>
 
+    <colorScheme name="gold">
+        <label>Gold</label>
+    </colorScheme>
+    
     <colorScheme name="mono">
         <label>Black & White</label>
     </colorScheme>
 
     <colorScheme name="blue">
         <label>Blue</label>
-    </colorScheme>
-
-    <colorScheme name="gold">
-        <label>Gold</label>
     </colorScheme>
 
     <colorScheme name="gameboy">
