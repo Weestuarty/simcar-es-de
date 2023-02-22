@@ -529,11 +529,9 @@
 			<video name="cover9">
 				<pos>0.8 0.87</pos>
 				<origin>.5 0.5</origin>
-				<maxSize>.2 0.3</maxSize>
+				<maxSize>.2 0.28</maxSize>
 				<imageType>physicalmedia, screenshot</imageType>
-				<gradientType>vertical</gradientType>								
-				<color>${backgroundColor}00</color>
-				<colorEnd>FFFFFF</colorEnd>
+				
 				<zIndex>2</zIndex>
 			</video>
 		</view>
@@ -541,16 +539,17 @@
 	<variant name="withoutVideo">
 		<view name="gamelist">
 			<image name="cover3">
-				<pos>0.8 0</pos>
-				<origin>.5 0</origin>
+				<pos>0.8 00.13</pos>
+				<origin>.5 0.5</origin>
 				<maxSize>.2 0.3</maxSize>
 				<imageType>physicalmedia, screenshot</imageType>
 				<zIndex>2</zIndex>
 			</image>
 			<image name="cover9">
-				<pos>0.8 1</pos>
-				<origin>.5 1</origin>
+				<pos>0.8 .87</pos>
+				<origin>.5 0.5</origin>
 				<maxSize>.2 0.3</maxSize>
+				
 				<imageType>physicalmedia, screenshot</imageType>
 				<zIndex>2</zIndex>
 			</image>
