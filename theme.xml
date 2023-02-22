@@ -359,7 +359,7 @@
 					<size>.2 0.3</size>
 					<path>./assets/box.png</path>
 					<gradientType>vertical</gradientType>								
-					<color>FFFFFF00</color>
+					<color>${backgroundColor}00</color>
 					<colorEnd>${backgroundColor}</colorEnd>
 					<zIndex>3</zIndex>
 				</image>
@@ -408,7 +408,7 @@
 				<path>./assets/box.png</path>
 				<gradientType>vertical</gradientType>								
 				<color>${backgroundColor}</color>
-				<colorEnd>FFFFFF00</colorEnd>
+				<colorEnd>${backgroundColor}00</colorEnd>
 				<zIndex>3</zIndex>
 			</image>
 						
@@ -549,7 +549,6 @@
 				<pos>0.8 .87</pos>
 				<origin>.5 0.5</origin>
 				<maxSize>.2 0.3</maxSize>
-				
 				<imageType>physicalmedia, screenshot</imageType>
 				<zIndex>2</zIndex>
 			</image>
