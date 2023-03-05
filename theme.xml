@@ -523,7 +523,7 @@
 			<video name="cover3">
 				<pos>0.8 0.13</pos>
 				<origin>.5 0.5</origin>
-				<maxSize>.2 0.3</maxSize>
+				<cropSize>.2 0.3</cropSize>
 				<audio>false</audio>
 				<imageType>physicalmedia, screenshot</imageType>
 				<zIndex>2</zIndex>
@@ -531,7 +531,7 @@
 			<video name="cover9">
 				<pos>0.8 0.87</pos>
 				<origin>.5 0.5</origin>
-				<maxSize>.2 0.28</maxSize>
+				<cropSize>.2 0.28</cropSize>
 				<imageType>physicalmedia, screenshot</imageType>
 				
 				<zIndex>2</zIndex>
