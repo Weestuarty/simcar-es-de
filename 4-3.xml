@@ -1,6 +1,13 @@
 <theme>
 
     <view name="system">    
+        <carousel name="game_carousel">
+           
+            <itemRotation>8.5</itemRotation>
+           
+            <itemScale>1.6</itemScale>
+            
+        </carousel>
 			<text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10">
 				<size>0.6 0.03</size>
 				<fontPath>${mainFont}</fontPath>
@@ -73,9 +80,9 @@
         <carousel name="game_carousel">
 			<pos>-.03 0</pos>
 			<size>0.55 1.</size>
-			<itemSize>0.2 0.15</itemSize>
+			<itemSize>0.2 0.13</itemSize>
 			<imageType>none</imageType>
-			<itemRotation>8</itemRotation>
+			<itemRotation>8.5</itemRotation>
 			<type>verticalWheel</type>
 			<itemScale>1.35</itemScale>
 			<itemRotationOrigin>-4 0.5</itemRotationOrigin>

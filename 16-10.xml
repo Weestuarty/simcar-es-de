@@ -42,6 +42,11 @@
    
 
     <view name="gamelist">
+        <carousel name="game_carousel">
+           
+            <itemRotation>5.5</itemRotation>
+            
+        </carousel>
         <text name="collectionsSystemName">
            <fontSize>0.025</fontSize>
         </text>
