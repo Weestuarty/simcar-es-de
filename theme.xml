@@ -82,6 +82,9 @@
 			  <helpsystem name="help">
 				<pos>0.98 0.3</pos>
 				<origin>1 0.5</origin>
+				<posDimmed>0.5 0.85</posDimmed>
+				<originDimmed>0.5 0.5</originDimmed>
+				<fontSizeDimmed>0.025</fontSizeDimmed>
 				<textColor>${outlineColor1}</textColor>
 				<textColorDimmed>${outlineColor1}</textColorDimmed>
 				<iconColor>${outlineColor1}</iconColor>
