@@ -92,6 +92,7 @@
 				<fontPath>${mainFont}</fontPath>
 				<fontSize>0.02</fontSize>
 				<opacity>0.6</opacity>
+				<opacityDimmed>1</opacityDimmed>
 				<letterCase>capitalize</letterCase>
 			  </helpsystem>
 		</view>
