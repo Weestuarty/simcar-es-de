@@ -4,8 +4,10 @@
 
 <theme>
 	<include>./navigationsounds.xml</include>
-	<include>./colors.xml</include>
-	<include>./sysinfo/${system.theme}.xml</include>
+	<include>./colors.xml</include> 
+	<include>./system/metadata/_default.xml</include>
+    <include>./system/metadata/${system.theme}.xml</include>
+    <include>./system/logos/metacustom/${system.theme}.xml</include>
 
 	<aspectRatio name="4:3">
 		<include>./4-3.xml</include>
@@ -21,6 +23,7 @@
 
     <variables>
        	<mainFont>./assets/fonts/rost.otf</mainFont>
+		<syslogo>./system/logos/syslogo/${system.theme}.svg</syslogo>
     </variables>
 
 		<view name="system, gamelist">
@@ -80,7 +83,7 @@
             	<zIndex>54</zIndex>
       		</image>
 			  <helpsystem name="help">
-				<pos>0.98 0.3</pos>
+				<pos>0.98 0.275</pos>
 				<origin>1 0.5</origin>
 				<posDimmed>0.5 0.95</posDimmed>
 				<originDimmed>0.5 0.5</originDimmed>
@@ -106,7 +109,7 @@
 				<type>verticalWheel</type>
 				<fastScrolling>true</fastScrolling>
 				<itemScale>1.8</itemScale>
-				<staticImage>./assets/syslogo/${system.theme}.svg</staticImage>
+				<staticImage>${syslogo}</staticImage>
 				<imageColor>${outlineColor1}</imageColor>
 				<itemRotationOrigin>-5 0.5</itemRotationOrigin>
 				<systemNameSuffix>false</systemNameSuffix>
@@ -128,43 +131,18 @@
 				<gameCount>8</gameCount>
 				<allowDuplicates>true</allowDuplicates>
 			</gameselector>
-			<text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10">
-				<size>0.6 0.03</size>
+			<text name="info">
+				<pos>0.425 0.5</pos>
+				<size>0.55 0.4</size>
+				<origin>0 0.5</origin>
+				<text>${systemDescription}</text>
 				<fontPath>${mainFont}</fontPath>
 				<fontSize>0.035</fontSize>
 				<horizontalAlignment>left</horizontalAlignment>
 				<color>${outlineColor1}</color>
+				<lineSpacing>1.1</lineSpacing>
 			</text>
-			<text name="info1">
-				<pos>0.45 0.35</pos>
-			</text>
-			<text name="info2">
-				<pos>0.45 0.385</pos>
-			</text>
-			<text name="info3">
-				<pos>0.45 0.42</pos>
-			</text>
-			<text name="info4">
-				<pos>0.45 0.455</pos>
-			</text>
-			<text name="info5">
-				<pos>0.45 0.49</pos>
-			</text>
-			<text name="info6">
-				<pos>0.45 0.525</pos>
-			</text>
-			<text name="info7">
-				<pos>0.45 0.56</pos>
-			</text>
-			<text name="info8">
-				<pos>0.45 0.595</pos>
-			</text>
-			<text name="info9">
-				<pos>0.45 0.63</pos>
-			</text>
-			<text name="info10">
-				<pos>0.45 0.665</pos>
-			</text>
+			
 			<text name="gamecount">
 				<pos>0.03 0.5</pos>
 				<origin>0.5 0.5</origin>
@@ -439,7 +417,7 @@
 				<zIndex>2</zIndex>
 			</image>			
       		<image name="Syslogo">
-				<path>./assets/syslogo/${system.theme}.svg</path>
+				<path>${syslogo}</path>
             	<pos>0.047 0.5</pos>
 				<origin>0.5 0.5</origin>
 				<rotation>-90</rotation>
