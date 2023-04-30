@@ -6,8 +6,9 @@
 	<include>./navigationsounds.xml</include>
 	<include>./colors.xml</include> 
 	<include>./system/metadata/_default.xml</include>
+    <include>./system/custom/metadata/_default.xml</include>
+    <include>./system/custom/metadata/${system.theme}.xml</include>
     <include>./system/metadata/${system.theme}.xml</include>
-    <include>./system/logos/metacustom/${system.theme}.xml</include>
 
 	<aspectRatio name="4:3">
 		<include>./4-3.xml</include>
@@ -23,7 +24,8 @@
 
     <variables>
        	<mainFont>./assets/fonts/rost.otf</mainFont>
-		<syslogo>./system/logos/syslogo/${system.theme}.svg</syslogo>
+		<syslogo>./system/logos/system-logo-white/${system.theme}.svg</syslogo>
+        <syslogocustom>./system/custom/logo/${system.theme}.svg</syslogocustom>
     </variables>
 
 		<view name="system, gamelist">
@@ -110,6 +112,7 @@
 				<fastScrolling>true</fastScrolling>
 				<itemScale>1.8</itemScale>
 				<staticImage>${syslogo}</staticImage>
+                <defaultImage>${syslogocustom}</defaultImage>
 				<imageColor>${outlineColor1}</imageColor>
 				<itemRotationOrigin>-5 0.5</itemRotationOrigin>
 				<systemNameSuffix>false</systemNameSuffix>
@@ -418,6 +421,7 @@
 			</image>			
       		<image name="Syslogo">
 				<path>${syslogo}</path>
+                <default>${syslogocustom}</default>
             	<pos>0.047 0.5</pos>
 				<origin>0.5 0.5</origin>
 				<rotation>-90</rotation>
