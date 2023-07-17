@@ -477,7 +477,7 @@
 				<horizontalAlignment>center</horizontalAlignment>
 				<direction>row</direction>
 				<lines>1</lines>
-				<itemsPerLine>8</itemsPerLine>
+				<itemsPerLine>7</itemsPerLine>
 				<slots>controller, completed, favorite, altemulator, kidgame, collection, manual</slots>
 				<controllerPos>0.51 0.415</controllerPos>
 				<controllerSize>0.85</controllerSize>
