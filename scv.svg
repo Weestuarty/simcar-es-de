@@ -37,9 +37,9 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="0.62628762"
-     inkscape:cx="-308.16512"
-     inkscape:cy="455.06249"
+     inkscape:zoom="1.2525752"
+     inkscape:cx="-11.576151"
+     inkscape:cy="287.40788"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -62,11 +62,11 @@
        sodipodi:nodetypes="cccccc" />
     <path
        id="rect291"
-       style="fill:none;stroke:#ffffff;stroke-width:10.2047;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
+       style="fill:none;stroke:#ffffff;stroke-width:5.105;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke;stroke-dasharray:none"
        d="m 70.453511,16.968907 162.582449,-0.846783 0.70566,95.122026 48.12553,-0.56452 4.0928,315.00351 -270.265105,1.12904 1.693559,-313.87446 53.34737,0.56452 z"
        sodipodi:nodetypes="ccccccccc" />
     <ellipse
-       style="fill:none;stroke:#ffffff;stroke-width:10.2047;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
+       style="fill:none;stroke:#ffffff;stroke-width:8.205;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke;stroke-dasharray:none"
        id="path442"
        cx="144.40594"
        cy="276.36694"
@@ -292,12 +292,12 @@
     <path
        id="rect1643"
        style="fill:none;stroke:#ffffff;stroke-width:4.105;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
-       d="m 44.485478,118.8652 218.470162,-2.82261 -1.41131,55.32319 -216.494329,1.97582 z"
+       d="m 44.485478,116.8652 218.470162,-2.82261 -1.41131,55.32319 -216.494329,1.97582 z"
        sodipodi:nodetypes="ccccc" />
     <path
        id="rect1646"
        style="fill:none;stroke:#ffffff;stroke-width:2.705;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
-       d="M 53.235577,119.42973 249.12485,118.86521 236.70536,145.68002 67.630898,146.5268 Z"
+       d="M 53.235577,115.42973 249.12485,114.86521 236.70536,141.68002 67.630898,142.5268 Z"
        sodipodi:nodetypes="ccccc" />
   </g>
 </svg>
