@@ -6,9 +6,9 @@
    id="Layer_3"
    x="0px"
    y="0px"
-   width="400"
-   height="300.26001"
-   viewBox="0 0 399.99998 300.26"
+   width="394.189"
+   height="273.26001"
+   viewBox="0 0 394.18897 273.26"
    xml:space="preserve"
    sodipodi:docname="dos.svg"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
@@ -19,7 +19,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:ns="&amp;ns_sfw;"><defs
+   xmlns:ns="&amp;#38;ns_sfw;"><defs
    id="defs12" /><sodipodi:namedview
    id="namedview10"
    pagecolor="#000000"
@@ -31,8 +31,8 @@
    inkscape:deskcolor="#d1d1d1"
    showgrid="false"
    inkscape:zoom="2.0445042"
-   inkscape:cx="299.58363"
-   inkscape:cy="175.10357"
+   inkscape:cx="300.07275"
+   inkscape:cy="175.59269"
    inkscape:window-width="1920"
    inkscape:window-height="1009"
    inkscape:window-x="-8"
@@ -62,14 +62,17 @@
 </metadata>
 <g
    id="g7"
-   transform="translate(-100,-16)">
+   transform="translate(-100,-26)"
+   style="fill:none;stroke:#f3ffff;stroke-opacity:1;stroke-width:2.1;stroke-dasharray:none">
 	<path
    fill="#f4f4f4"
    d="m 103.215,29.841 h 48.589 v 24.295 h 24.294 V 78.43 h 24.295 v 24.294 h 24.294 v 24.295 h 24.294 v 24.294 h -24.294 v 24.295 h -24.294 v 24.294 h -24.295 v 24.296 h -24.294 v 24.293 h -48.589 v -24.293 h 24.295 v -24.296 h 24.294 v -24.294 h 24.294 v -24.295 h 24.295 V 127.02 H 176.098 V 102.725 H 151.804 V 78.431 H 127.51 V 54.136 h -24.295 z"
-   id="path3" />
+   id="path3"
+   style="fill:none;stroke:#f3ffff;stroke-opacity:1;stroke-width:2.1;stroke-dasharray:none" />
 	<path
    fill="#f4f4f4"
    d="m 297.572,272.788 h 194.355 v 24.295 H 297.572 Z"
-   id="path5" />
+   id="path5"
+   style="fill:none;stroke:#f3ffff;stroke-opacity:1;stroke-width:2.1;stroke-dasharray:none" />
 </g>
 </svg>

@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="6.6796875"
-     inkscape:cx="63.625731"
-     inkscape:cy="64.074854"
+     inkscape:zoom="13.359375"
+     inkscape:cx="42.62924"
+     inkscape:cy="78.596491"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -380,10 +380,10 @@
        y2="117.94834" />
     <filter
        id="filter4752"
-       height="1.585362"
-       width="2.0419632"
-       x="-0.56511491"
-       y="-0.14486052">
+       height="1.5546078"
+       width="1.8348274"
+       x="-0.41741368"
+       y="-0.27730388">
       <feGaussianBlur
          stdDeviation=".071791653"
          id="feGaussianBlur107" />
@@ -422,10 +422,10 @@
        y2="93.434776" />
     <filter
        id="filter4877"
-       height="1.0273528"
-       width="14.693124"
-       x="-6.8465618"
-       y="-0.013676381">
+       height="1.0162786"
+       width="9.149272"
+       x="-4.074636"
+       y="-0.0081393077">
       <feGaussianBlur
          stdDeviation=".20332763"
          id="feGaussianBlur114" />
@@ -599,7 +599,7 @@
        d="m60 8c-12 0-32.066255 1.728851-36 4v84c0 8 8 20 16 20h40c8 0 16-12 16-20v-84c-3.93375-2.271149-24-4-36-4z"
        fill-rule="evenodd"
        id="path155"
-       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
+       style="fill:none;stroke:#ffffff;stroke-opacity:1;stroke-width:0.6;stroke-dasharray:none" />
     <g
        transform="matrix(.5 0 0 .5 189 14.866996)"
        id="g157"
@@ -611,21 +611,6 @@
        opacity=".209738"
        id="path159"
        style="fill:none;stroke:#ffffff;stroke-opacity:1" />
-    <g
-       fill-rule="evenodd"
-       id="g171"
-       style="fill:none;stroke:#ffffff;stroke-opacity:1">
-      <path
-         d="m59.61875 8.1c-9.127034 0-22.906474.990574-30.71875 2.46875 10.588778-.933014 21.925976-1.46875 30.71875-1.46875s20.129973.535736 30.71875 1.46875c-7.812276-1.478176-21.591715-2.46875-30.71875-2.46875z"
-         fill="url(#linearGradient3602)"
-         id="path161"
-         style="fill:none;stroke:#ffffff;stroke-opacity:1" />
-      <path
-         d="m59.61875 8.1c-9.127034 0-22.906474.990574-30.71875 2.46875 10.588778-.933014 21.925976-1.46875 30.71875-1.46875s20.129973.535736 30.71875 1.46875c-7.812276-1.478176-21.591715-2.46875-30.71875-2.46875z"
-         fill="url(#linearGradient3837)"
-         id="path169"
-         style="fill:none;stroke:#ffffff;stroke-opacity:1" />
-    </g>
     <path
        d="m70.3125 12.46875a1.71875 1.71875 0 1 1 -3.4375 0 1.71875 1.71875 0 1 1 3.4375 0z"
        fill="url(#linearGradient3847)"
@@ -650,7 +635,7 @@
        x="32"
        y="-88"
        id="rect179"
-       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
+       style="fill:none;stroke:#ffffff;stroke-opacity:1;stroke-width:0.5;stroke-dasharray:none" />
     <rect
        fill="url(#linearGradient4794)"
        height="4"
@@ -658,12 +643,7 @@
        x="32"
        y="84"
        id="rect181"
-       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
-    <path
-       d="m32 87.999996v-72h56v72zm1-1h54v-70h-54z"
-       fill="url(#linearGradient3002)"
-       id="path185"
-       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
+       style="fill:none;stroke:#ffffff;stroke-opacity:1;stroke-width:0.4;stroke-dasharray:none" />
     <path
        d="m-32 110a18 18 0 1 1 -36 0 18 18 0 1 1 36 0z"
        fill="url(#linearGradient3977)"
@@ -680,22 +660,13 @@
        style="fill:none;stroke:#ffffff;stroke-opacity:1" />
     <rect
        fill="#fff"
-       filter="url(#filter4089)"
-       height=".375"
-       width="13.125"
-       x="53.437504"
-       y="100.73223"
-       id="rect193"
-       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
-    <rect
-       fill="#fff"
        height=".066942"
        transform="scale(1 -1)"
        width="13.125"
        x="53.437504"
        y="-100.9532"
        id="rect197"
-       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
+       style="fill:none;stroke:#ffffff;stroke-opacity:1;stroke-width:0.5;stroke-dasharray:none" />
     <path
        d="m71.625 101.4375a2.6875 2.6875 0 1 1 -5.375 0 2.6875 2.6875 0 1 1 5.375 0z"
        fill="url(#linearGradient4131)"
@@ -709,35 +680,14 @@
        filter="url(#filter4165)"
        transform="translate(-29.857234 -.517766)"
        id="path203"
-       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
+       style="fill:none;stroke:#ffffff;stroke-opacity:1;stroke-width:0.6;stroke-dasharray:none" />
     <path
        d="m71.625 101.4375a2.6875 2.6875 0 1 1 -5.375 0 2.6875 2.6875 0 1 1 5.375 0z"
        fill="url(#linearGradient4131)"
        filter="url(#filter4165)"
        transform="translate(11.982234 -.517766)"
        id="path207"
-       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
-    <path
-       d="m94.6 12.1125v84.9c0 5.34383-3.589016 12.44914-8.34375 16.59375 5.248158-3.96485 9.34375-11.6917 9.34375-17.40625v-84c-.12239-.795154-.98867-.555449-1-.0875z"
-       fill="url(#linearGradient4648)"
-       fill-rule="evenodd"
-       id="path209"
-       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
-    <path
-       d="m33.067026 86.851341-1.391257 2.063525.795421 1.055423z"
-       fill="url(#radialGradient4770)"
-       fill-rule="evenodd"
-       filter="url(#filter4752)"
-       id="path211"
-       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
-    <path
-       d="m41.067026 86.851341-1.391257 2.063525.795421 1.055423z"
-       fill="url(#radialGradient4774)"
-       fill-rule="evenodd"
-       filter="url(#filter4752)"
-       transform="matrix(-1 0 0 1 127.67577 0)"
-       id="path213"
-       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
+       style="fill:none;stroke:#ffffff;stroke-opacity:1;stroke-width:0.5;stroke-dasharray:none" />
     <rect
        fill="url(#linearGradient4784)"
        height="4"
@@ -745,15 +695,6 @@
        x="32"
        y="16"
        id="rect215"
-       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
-    <rect
-       fill="#fff"
-       filter="url(#filter4877)"
-       height="72.240334"
-       width=".144304"
-       x="31.800011"
-       y="16.046238"
-       id="rect217"
-       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
+       style="fill:none;stroke:#ffffff;stroke-opacity:1;stroke-width:0.4;stroke-dasharray:none" />
   </g>
 </svg>
