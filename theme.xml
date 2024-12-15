@@ -5,6 +5,7 @@
 <theme>
 	<include>./navigationsounds.xml</include>
 	<include>./colors.xml</include> 
+	<include>./languages.xml</include>
 	<include>./system/metadata/_default.xml</include>
     <include>./system/custom/metadata/_default.xml</include>
     <include>./system/custom/metadata/${system.theme}.xml</include>
@@ -443,7 +444,7 @@
 				<pos>0.76 0.33</pos>
 			</text>
 			<text name="player2">
-				<text>Number of players:</text>
+				<text>${langLabelPlayers}:</text>
 				<metadataElement>true</metadataElement>
 				<fontPath>${mainFont}</fontPath>
 				<fontSize>0.03</fontSize>
